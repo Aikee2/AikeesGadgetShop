@@ -378,7 +378,7 @@ void manageCart(vector<CartItem>& cart, vector<Item>& inventory) {
         while (!(cin >> choice)) {
             cin.clear();
             cin.ignore(numeric_limits<streamsize>::max(), '\n');
-            printError("Not enough stock available");
+            printError("Invalid Input");
             cout << "Please enter a number: ";
         }
 
